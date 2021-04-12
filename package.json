@@ -28,6 +28,7 @@
   "homepage": "https://github.com/shanlh/vue-tinder",
   "license": "MIT",
   "dependencies": {
+    "rollup": "^2.45.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {

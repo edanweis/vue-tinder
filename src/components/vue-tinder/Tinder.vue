@@ -167,6 +167,7 @@ export default {
   }),
   computed: {
     status() {
+      this.$emit('status', this.state.status)
       return this.state.status
     },
     // 在 x 轴上移动距离相对于卡片一半宽度的比例
